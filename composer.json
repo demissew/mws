@@ -1,0 +1,28 @@
+{
+  "name": "demissew/mws",
+  "description": "Amazon MWS API libraries",
+  "minimum-stability": "dev",
+  "license": "MIT License",
+  "authors": [
+    {
+      "name": "Amazon Technologies, Inc",
+      "homepage": "https://developer.amazonservices.com"
+    },
+	{
+		"name": "Demissew Melese",
+		"email": "dhex30@gmail.com"
+	}
+  ],
+  "include-path": [
+    "src/"
+  ],
+  "autoload": {
+    "psr-4": {
+      "MarketplaceWebService": "src/",
+      "MarketplaceWebServiceOrders": "src/",
+      "MarketplaceWebServiceProducts": "src/",
+      "MarketplaceWebServiceSellers": "src/",
+      "MWSFinancesService": "src/"
+    }
+  }
+}
